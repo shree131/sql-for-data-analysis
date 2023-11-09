@@ -1,2 +1,2 @@
 SELECT COUNT(CustomerID)
-from Customer;
+FROM Customer;

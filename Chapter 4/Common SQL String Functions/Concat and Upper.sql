@@ -1,13 +1,9 @@
-SELECT UPPER(
-    CONCAT(
-      Address,
-      ' ',
-      City,
-      ', ',
-      State,
-      ' ',
-      Zipcode
+SELECT 
+  TRIM(' '
+    FROM
+    UPPER(
+    CONCAT(Address, ' ', City, ' ', State, ' ', Zipcode)
     )
-  ) AS NEW_ADDRESS
-from Customer
-LIMIT 10
+  ) AS New_Address
+FROM Customer
+LIMIT 10;
