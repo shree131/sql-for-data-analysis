@@ -1,2 +1,3 @@
 SELECT Status
-from Salesperson;
+from Product
+WHERE Status IS NULL;

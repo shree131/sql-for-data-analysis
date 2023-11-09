@@ -1,0 +1,2 @@
+ALTER TABLE Customer
+ADD COLUMN Preference VARCHAR(10);
